@@ -36,6 +36,99 @@ body {
     src: url("fonts/SFMono Regular Nerd Font Complete.otf");
 }
 
+@media (pointer:none), (pointer:coarse), (max-width: 800px) {
+
+    .flex-container-nav {
+        display: initial !important;
+        margin: 0;
+    }
+
+    .flex-grid {
+        width: 100% !important;
+    }
+
+    .menu-box {
+        width: 100% !important;
+        margin: 25px 0 25px 0 !important;
+    }
+
+    .menu-box h1 {
+        font-size: 60px !important;
+    }
+
+    .menu-box h2 {
+        font-size: 50px !important;
+    }
+
+    .menu-box p, .menu-box a, .inline-flex a {
+        font-size: 30px !important;
+    }
+
+    .contact-box {
+        margin-bottom: 75px !important;
+    }
+
+    /* blog stuff */
+    
+    #blog {
+        font-size: 40px !important;
+    }
+
+    .flex-container-blog h2 {
+        font-size: 30px !important;
+    }
+
+    .blog {
+        width: auto !important;
+    }
+
+    .blog p, .blog strong{
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+
+    .blog-title {
+        font-size: 40px !important;
+        float: none !important;
+    }
+
+    .blog-author {
+        font-size: 20px !important;
+    }
+
+    .blog-date {
+        font-size: 20px !important;
+        float: none !important;
+    }
+    
+    /* article stuff */
+    
+    .article-nav-box {
+        width: 100% !important;
+        padding: 20px 0 20px 0 !important;
+    }
+
+    .article-nav-box a {
+        font-size: 25px !important;
+        margin-right: 30px !important;
+        margin-left: 20px !important;
+    }
+
+    .articles-list-container {
+        width: auto !important;
+    }
+
+    .articles-list-container h1 {
+        font-size: 50px !important;
+    }
+
+    .articles-list-container a {
+        font-size: 30px !important;
+        margin-bottom: 25px !important;
+    }
+
+}
+
 a {
     color: var(--red);
     transition: ease 0.3s;
@@ -103,6 +196,13 @@ strong::selection {
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 45px;
+}
+
+.blog img {
+    display: block;
+    border: 2px solid var(--purple);
+    margin: 0 auto;
+    border-radius: 20px;
 }
 
 .blog p {
