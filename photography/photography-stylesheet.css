@@ -1,0 +1,87 @@
+/* photography */
+.lazy {
+    width: 800px;
+    height: 560px;
+    background-color: gray;
+}
+
+#photos img {
+    box-sizing: border-box;
+    display: block;
+    box-shadow: 0px 0px 50px black;
+    border: 20px solid white;
+    margin: 40px auto 40px auto;
+}
+
+#page h3 {
+    text-align: center;
+    margin: 20px;
+}
+
+.portrait-8x10 {
+    width: 75%;
+}
+
+.landscape {
+    width: 100%;
+}
+
+.portrait {
+    width: 70%;
+}
+
+.photos-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo-collection {
+    border: 3px solid var(--blog);
+    background-color: var(--fg);
+    width: 300px;
+    height: 332px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.photo-collection h4 {
+    color: var(--bg);
+    padding: 0 4px 0 4px;
+}
+
+.collection-thumbnail a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    padding: 0;
+}
+
+.collection-thumbnail p {
+    position: absolute;
+    color: var(--bg);
+    background-color: var(--fg);
+    opacity: 80%;
+    top: 0;
+    left: 0;
+    padding-right: 5px;
+}
+
+.collection-thumbnail a:hover {
+    border-radius: 0;
+    opacity: 0;
+}
+
+.collection-thumbnail {
+    border-radius: 17px 17px 0 0;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* end photography */
+
