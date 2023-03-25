@@ -2,4 +2,4 @@
 The source code for https://scarbyte.com
 
 Screenshot:  
-<img src="https://github.com/Scarbyte/scarbyte-website/blob/main/screenshot.png?raw=true" width=600>
+<img src="https://neocities.org/site_screenshots/27/08/scarbyte/index.html.540x405.jpg">
