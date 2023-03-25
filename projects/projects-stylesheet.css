@@ -9,6 +9,10 @@
     border-radius: 20px;
 }
 
+.project-item a {
+  margin-left: 20px;  
+}
+
 .project-item header, .project-item p {
     flex-shrink: 0;
 }

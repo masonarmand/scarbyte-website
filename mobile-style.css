@@ -1,4 +1,4 @@
-@media (pointer:none), (pointer:coarse), (max-width: 800px) {
+@media not (min-width: 720px), (max-width: 800px) and (pointer:none), (pointer:coarse) {
     .gear {
         display: none !important;
     }
