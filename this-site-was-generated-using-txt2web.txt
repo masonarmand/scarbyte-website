@@ -30,3 +30,5 @@ Txt2web is definitely not meant to compete with other static site generators, it
 works for my needs though, and it was fun creating it. All I have to do to write a blog post now is write
 some stuff in a .txt file and run a shell script that will build it with txt2web, push to github, and push to
 neocities. :)
+
+If you want to see what one of the blog .txt files looks like, you can view the source for this post on <a href="https://github.com/masonarmand/scarbyte-website/blob/main/this-site-was-generated-using-txt2web.txt">GitHub</a>.
