@@ -26,7 +26,7 @@ has some custom syntax similar to markdown, but its not quite the same. If you w
 you can <a href="https://github.com/masonarmand/txt2web">view it on GitHub</a>. It is programmed in C and only
 depends on the C standard library. It does however use POSIX functions, so it does not compile on windows.
 
-Txt2web is definitely not meant to compete with other static site generators, its lacking a lot of features. It
+Txt2web is definitely not meant to compete with other static site generators, it is lacking a lot of features. It
 works for my needs though, and it was fun creating it. All I have to do to write a blog post now is write
 some stuff in a .txt file and run a shell script that will build it with txt2web, push to github, and push to
 neocities. :)
