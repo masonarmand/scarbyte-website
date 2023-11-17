@@ -92,7 +92,7 @@ p, li { font-size: 1.25rem; text-align: justify; }
 }
 /* end gear stuff */
 
-@media (max-width: 900px), (pointer:none), (pointer:coarse) {
+@media (max-width: 900px) {
   main {
     max-width: 100% !important;
   }
@@ -101,5 +101,8 @@ p, li { font-size: 1.25rem; text-align: justify; }
   }
   main p, main nav {
      width: auto !important;
+  }
+  main img {
+    width: 100% !important;
   }
 }
