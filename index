@@ -1,0 +1,24 @@
+-----
+title: Scarbyte
+description:
+tags:
+date:
+style: frontpage.css
+-----
+<img src="/gears/gear-1.png" class="gear" pos="1">
+<img src="/gears/gear-0.png" class="gear" pos="2">
+<img src="/gears/gear-1.png" class="gear" pos="3">
+<img src="/img/nature-tree-arch.webp" class="headerimg">
+# {title}
+Personal website/blog for showcasing my various hobbies including programming, game development, photography, and
+music.
+
+Created by <a href="https://masonarmand.com">Mason Armand</a>. <br>
+
+Buy my music on <a href="https://masonarmand.bandcamp.com/" target="_blank">Bandcamp</a>. <br>
+Visit my <a href="https://www.youtube.com/channel/UCXdCQ67ecRBFxoQboTKg7cg" target="_blank">YouTube</a>. <br>
+Visit my <a href="https://github.com/masonarmand" target="_blank">GitHub</a>. <br>
+
+
+
+## Blog Posts

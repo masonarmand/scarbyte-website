@@ -1,0 +1,69 @@
+-----
+title: The First Month of Experimental Game Jams
+description:
+tags:
+date: Feb 1 2023
+-----
+<img src="/gears/gear-1.png" class="gear" pos="1">
+<img src="/gears/gear-0.png" class="gear" pos="2">
+<img src="/gears/gear-1.png" class="gear" pos="3">
+# {title}
+## {date}
+
+If you didn't see my <a href="/posts/announcing-experimental-game-jams.html">blog post from 2 weeks ago</a>, I created a website where users can upload their experimental games. Each month there is a theme and users must create a game that demonstrates a completely new type of gameplay that matches the theme.
+
+### The Submissions
+
+January's theme was "GRID", we had a total of 4 submissions (which I think is pretty good for the first ever jam, especially considering this jam was only 2 weeks instead of a month).
+Here are the submissions!
+
+@/blog-resources/egjams/knightventure.png
+### Knightventure (made by <a href="https://experimentaljams.com/account/?user=chartuch" target="_blank">Chartuch</a>)
+
+The first submission was a really cool puzzle game called
+"Knightventure". In this game you have movement like the knight from
+chess and you must solve puzzles using your limited movement. Despite
+not all the puzzles being fully implemented, this game was super
+polished and the puzzles were actually very well designed!
+<br>
+You can download the game <a href="https://experimentaljams.com/game/?id=41" target="_blank">here</a>.
+
+@/blog-resources/egjams/gupta.png
+
+### Gupta (made by <a href="https://experimentaljams.com/account/?user=scarbyte" target="_blank">scarbyte</a>)
+
+The second submission was the game that I submitted. Like the last
+submission, it is also chess themed. This game is a roguelike with
+chess based movement. You can combine different segments of your chess
+piece to alter your movement pattern. Looking back, I probably
+could've designed this game better because the UI is very confusing
+and cryptic.
+<br>
+You can download the game <a href="https://experimentaljams.com/game/?id=44" target="_blank">here</a>.
+
+@/blog-resources/egjams/trtl.png
+
+### To Reach The Light (made by <a href="https://experimentaljams.com/account/?user=dawn" target="_blank">dawn</a>)
+
+The third submission was a neat little puzzle game involving pushing
+boxes. The twist is you have you control multiple characters and boxes
+of the same color will move together. This leads to some great
+and challenging puzzles.
+<br>
+You can download the game <a href="https://experimentaljams.com/game/?id=48" target="_blank">here</a>.
+
+@/blog-resources/egjams/creoterra.png
+
+### Creoterra (made by <a href="https://experimentaljams.com/account/?user=errormine" target="_blank">errormine</a>)
+
+The last submission was Creoterra. This is a sandbox terraforming
+game. The world will grow on its own as you play (grass will spread,
+bees will pollinate flowers, etc). Also, bonus points for the game
+being on a hexagonal grid!
+<br>
+You can play the game <a href="https://experimentaljams.com/game/?id=49" target="_blank">here</a>.
+
+@/blog-resources/egjams/ingredientstheme.png
+### February's Theme is "Ingredients"!
+Ingredients can come in many forms... what ingredients will you use to cook up the perfect game?
+Join the experimental game jams <a href="https://discord.gg/sKuHPhSqWz" target="_blank">discord server</a>!

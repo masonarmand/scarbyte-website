@@ -1,0 +1,24 @@
+-----
+title: Why I've Started Learning C
+description:
+tags:
+date: Feb 21 2022
+-----
+<img src="/gears/gear-1.png" class="gear" pos="1">
+<img src="/gears/gear-0.png" class="gear" pos="2">
+<img src="/gears/gear-1.png" class="gear" pos="3">
+<h1>{title}</h1>
+<h2>{date}</h2>
+For a while now, I've wanted to expand upon my programming skills. I wanted to learn a compiled, low level language. I've never been a big fan of languages like Python or Java, which are pretty slow and require you to install an interpeter (or the JVM for Java) to run programs written in these languages. I feel like these languages are like training wheels that I've never taken off. Modern software is starting to become pretty bloated and slow, and these high level lanuages that attempt to simplify programming aren't helping. In languages like Java, you're at the mercy of the garbage collector and JVM. For things like game development (which is what I want to get into), it's very important to have the power to manually manage memory and optimize your game so that it can run on a large range of hardware. I do understand that a lot of jobs use these languages, but I still feel like learning a lower level language will help broaden my understanding of programming.
+
+After looking into a few low level languages like Rust and C++, I've decided to just start with good ol' C. Even though C is quite old, I still feel like it's relevant. C's syntax serves as the basis of a lot of modern programming languages and I'll also be able to quickly start learning C++ afterwards, if I feel the need to. I would also like to know the exact differences between C and C++ rather than just "C++ is just C but with objects". Anyways, learning C will hopefully teach me:
+
+    - how to approach problems without thinking about objects as the solution
+
+    - memory management and optimizing programs
+
+    - good programming practices
+
+    - a better understanding about how programs work and how they interact with the hardware
+
+Hopefully I'll soon start experimenting with writing programs in C. I'll post some programs that I deem worthy if I write any, if not you'll probably end up seeing a blog post titled "Why I've stopped learning C" instead.
