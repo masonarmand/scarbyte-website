@@ -1,0 +1,32 @@
+-----
+title: This Site Was Generated Using txt2web
+description: This website was made using my own static site generator.
+tags: txt2web, ssg, static site generator, blog, c programming
+date: Nov 16 2023
+-----
+<img src="/gears/gear-1.png" class="gear" pos="1">
+<img src="/gears/gear-0.png" class="gear" pos="2">
+<img src="/gears/gear-1.png" class="gear" pos="3">
+# {title}
+## {date}
+
+You may have noticed that the site looks a lot different now. I got bored of the old design so I
+decided to change things up a bit. One huge problem that the old version of the site had was that
+all the blog posts were on one page. This was mostly due to laziness, since I did not feel like creating
+a separate page for each blog post. What this means is that eventually the page would start weighing a lot
+and slowing down if I had lots of blog posts with images, since they were all on one page. I looked at static
+site generators like Hugo and Jekyll, which have lots of nice features like pagination that would solve this
+problem. However, I was not satisfied with these tools. They were very complex and I really just wanted something
+simple and minimal.
+
+This is where txt2web comes in. Txt2web is a very simple static site generator that I created for making blogs.
+What it does is take a directory of .txt files and converts each .txt file into a full .html page. It then puts
+a list of all the blog posts sorted by date on the front page. Very simple and convenient for my case. It also
+has some custom syntax similar to markdown, but its not quite the same. If you want a full overview of the tool
+you can <a href="https://github.com/masonarmand/txt2web">view it on GitHub</a>. It is programmed in C and only
+depends on the C standard library. It does however use POSIX functions, so it does not compile on windows.
+
+Txt2web is definitely not meant to compete with other static site generators, its lacking a lot of features. It
+works for my needs though, and it was fun creating it. All I have to do to write a blog post now is write
+some stuff in a .txt file and run a shell script that will build it with txt2web, push to github, and push to
+neocities. :)
