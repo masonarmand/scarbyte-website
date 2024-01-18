@@ -49,6 +49,10 @@ h3 { font-size: 1.953rem; }
 p, li { font-size: 1.25rem; text-align: justify; }
 /* end font sizes */
 
+video {
+    display: block;
+    margin: 0 auto;
+}
 
 /* gear stuff */
 .gear {
