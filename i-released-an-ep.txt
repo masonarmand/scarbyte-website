@@ -25,6 +25,7 @@ https://distrokid.com/hyperfollow/masonarmand/travelling-menagerie
 
 I've got some more exciting things coming soon. I'm planning on releasing music videos for all of
 the tracks. Here's a snippet of the first few seconds of bacc67:
+<br>
 <video width="320" height="240" controls>
   <source src="/mp4/bacc67-teaser.mp4" type="video/mp4">
 Your browser does not support the video tag.
