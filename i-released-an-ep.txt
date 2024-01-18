@@ -1,0 +1,43 @@
+-----
+title: I released an EP
+description: I released my first EP titled Travelling Menagerie.
+tags: music, electronic music, mason armand, lmms, open source
+date: Jan 18 2024
+-----
+<img src="/gears/gear-1.png" class="gear" pos="1">
+<img src="/gears/gear-0.png" class="gear" pos="2">
+<img src="/gears/gear-1.png" class="gear" pos="3">
+# {title}
+## {date}
+
+After making over 60 tracks, I finally decided to release an EP. It's called Travelling Menagerie.
+@/blog-resources/travelling-menagerie.png
+
+If you want to support me you can purchase this EP for $4.99 on bandcamp here:
+https://masonarmand.bandcamp.com/album/travelling-menagerie
+
+I've also uploaded the EP in its entirety for free on YouTube:
+https://www.youtube.com/watch?v=fSouxCbC2g8
+
+The EP will also release on just about every streaming service in the coming days. You can pre-save
+the EP on spotify in the meantime here:
+https://distrokid.com/hyperfollow/masonarmand/travelling-menagerie
+
+I've got some more exciting things coming soon. I'm planning on releasing music videos for all of
+the tracks. Here's a snippet of the first few seconds of bacc67:
+<video width="320" height="240" controls>
+  <source src="/mp4/bacc67-teaser.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+I would also like to mention that I only use free open source tools for all my creations. The music was made
+using LMMS and audacity, the album cover was made in GIMP, and the music videos are being created in Blender,
+Godot, and Olive. Do not let anyone tell you that you need fancy equipment or paid software to create things.
+There is a lot of analog purists in the electronic music making community that will try and tell you that
+you need to buy thousands of dollars worth of synthesizers and drum machines. You do not. All you need is
+whatever laptop or computer you are currently using + some creativity.
+
+I also want to say that you should always try new things, even if you are afraid or embarrassed to. For
+the longest time I was scared of making music because it seemed like a daunting task. Then, on a whim I started
+composing tracks in August 2023. Now its January and I have 60 tracks made and an EP released. If you are dreaming
+about doing something in the back of your mind, just do it!
