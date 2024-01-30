@@ -1,112 +1,54 @@
-body {
-  font-family: goudy-bookletter, serif;
-  background-color: #ccc8bc;
-  color: #202020;
+:root {
+  --bg-color: #f1ebe6;
+  --fg-color: #362c24;
 }
 
-@font-face {
-    font-family: goudy-bookletter;
-    src: url("fonts/GoudyBookletter1911.otf");
+body, a, ul li:before {
+  color: var(--fg-color);
+  font-family: source-code-pro, monospace;
+}
 
-    font-display: swap;
+body {
+  background-color: var(--bg-color);
 }
 
 main {
   max-width: 800px;
-  margin: 0 auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  background-color: #f0eadc;
-  padding: 30px;
-  border-radius: 20px;
-  position: relative;
-}
-
-main img {
-  max-width: 600px;
-  display: block;
-  margin: 0 auto;
-  border-radius: 20px;
 }
 
 a {
-    color: #202020;
+  font-weight: bold;
+  white-space: nowrap;
 }
 
-a:hover {
-    color: #dbd6c9;
-    background-color: #000000;
+video, img {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
 }
 
-/* font sizes */
-h1, h2, h3, h4, h5 { margin: 0;}
-/*h1 { font-size: 3.052rem; } */
-h1 { font-size: 2.441rem; }
-h2 { font-size: 1.953rem; }
-h3 { font-size: 1.953rem; }
-/*h3 { font-size: 1.563rem; }*/
-/*p { text-indent: 25px; }*/
-p, li { font-size: 1.25rem; text-align: justify; }
-/* end font sizes */
-
-video {
-    display: block;
-    margin: 0 auto;
+p, ul li:before {
+  margin-left: 30px;
 }
 
-/* gear stuff */
-.gear {
-    position: absolute;
-    z-index: -1;
-}
-.gear[pos="1"] {
-    left: -50px;
-    top: 20px;
-    animation: spin 5s infinite linear;
+ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 
-.gear[pos="2"] {
-    width: 80px;
-    height: 80px;
-    left: -35px;
-    top: 140px;
-    animation: spin-reverse 5s infinite linear;
+ul li:before {
+  content: "* ";
+  padding-left: 20px;
 }
 
-.gear[pos="3"] {
-    right: -50px;
-    top: 50%;
-    animation: spin 5s infinite linear;
+h1, h2, h3, h4, h5, h6, p {
+  font-weight: normal;
+  font-size: 16px;
 }
 
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    } to {
-        transform: rotate(360deg);
-    }
+@font-face {
+  font-family: source-code-pro;
+  src: url("/fonts/SourceCodePro-VariableFont_wght.ttf");
+  font-display: swap;
 }
 
-@keyframes spin-reverse {
-    from {
-        transform: rotate(360deg);
-    } to {
-        transform: rotate(0deg);
-    }
-}
-/* end gear stuff */
-
-@media (max-width: 900px) {
-  main {
-    max-width: 100% !important;
-  }
-  .gear, .headerimg {
-    display: none;
-  }
-  main p, main nav {
-     width: auto !important;
-  }
-  main img {
-    width: 100% !important;
-  }
-}

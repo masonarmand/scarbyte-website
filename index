@@ -3,12 +3,7 @@ title: Scarbyte
 description: Personal website/blog for showcasing my various hobbies including programming, game development, photography, and music. Created by Mason Armand.
 tags: computer science, programming, music, blog, game development, photography
 date:
-style: frontpage.css
 -----
-<img src="/gears/gear-1.png" class="gear" pos="1">
-<img src="/gears/gear-0.png" class="gear" pos="2">
-<img src="/gears/gear-1.png" class="gear" pos="3">
-<img src="/img/nature-tree-arch.webp" class="headerimg">
 # {title}
 Personal website/blog for showcasing my various hobbies including programming, game development, photography, and
 music.
@@ -17,8 +12,8 @@ Created by <a href="https://masonarmand.com">Mason Armand</a>. <br>
 
 Check out my music <a href="https://music.masonarmand.com/" target="_blank">here</a>. <br>
 Visit my <a href="https://www.youtube.com/channel/UCXdCQ67ecRBFxoQboTKg7cg" target="_blank">YouTube</a>. <br>
-Visit my <a href="https://github.com/masonarmand" target="_blank">GitHub</a>. <br>
-
+Visit my <a href="https://github.com/masonarmand" target="_blank">GitHub</a>. <br><br>
+Website <a href="https://gitlab.com/warningnonpotablewater/breadog" target="_blank">colorscheme</a> created by ⚠️🚱. <br>
 
 
 ## Blog Posts

@@ -2,11 +2,8 @@
 title: The First Month of Experimental Game Jams
 description:
 tags:
-date: Feb 1 2023
+date: Feb 01 2023
 -----
-<img src="/gears/gear-1.png" class="gear" pos="1">
-<img src="/gears/gear-0.png" class="gear" pos="2">
-<img src="/gears/gear-1.png" class="gear" pos="3">
 # {title}
 ## {date}
 

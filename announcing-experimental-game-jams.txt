@@ -4,9 +4,6 @@ description:
 tags:
 date: Jan 13 2023
 -----
-<img src="/gears/gear-1.png" class="gear" pos="1">
-<img src="/gears/gear-0.png" class="gear" pos="2">
-<img src="/gears/gear-1.png" class="gear" pos="3">
 # {title}
 ## {date}
 https://experimentaljams.com is about discovering completely new types of gameplay. Each month there is a new theme and users must create their game to match that theme. The rules are that each game must be made by 1 person and within 1 month, and the game must demonstrate a completely new type of gameplay never seen before.

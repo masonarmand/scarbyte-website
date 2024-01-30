@@ -4,9 +4,6 @@ description: This website was made using my own static site generator.
 tags: txt2web, ssg, static site generator, blog, c programming
 date: Nov 16 2023
 -----
-<img src="/gears/gear-1.png" class="gear" pos="1">
-<img src="/gears/gear-0.png" class="gear" pos="2">
-<img src="/gears/gear-1.png" class="gear" pos="3">
 # {title}
 ## {date}
 
