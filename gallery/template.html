@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" href="/glightbox/glightbox.min.css">
+  <link rel="stylesheet" href="/gallery.css">
+  <link rel="stylesheet" href="/style.css">
+  <title>Scarbyte</title>
+  <meta name='description' content='Personal website/blog for showcasing my various hobbies including programming, game development, photography, and music. Created by Mason Armand.'>
+  <meta name='keywords' content='computer science, programming, music, blog, game development, photography'>
+</head>
+<body>
+<main>
+  <a href='/'>&lt;-- go to home page</a><br><br>
+  <h1>{{gallery_name}}</h1>
+  <div class="img-gallery">
+  {{content}}
+  </div>
+  <script type="text/javascript" src="/glightbox/glightbox.min.js"></script>
+    <script type="text/javascript">
+        const lightbox = GLightbox({
+            preload: true,
+            openEffect: "fade",
+            touchNavigation: true,
+            loop: true
+        });
+    </script>
+</main>
+</body>
+</html>

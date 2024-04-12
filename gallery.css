@@ -1,0 +1,25 @@
+.img-gallery {
+  column-count: auto;
+  column-width: 300px;
+  column-gap: 10px;
+  width: 100%;
+}
+
+.glightbox {
+  break-inside: avoid;
+  margin-bottom: 20px;
+  width: 100%;
+  display: block;
+}
+
+.glightbox img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+}
+
+
+main {
+  max-width: 100% !important;
+}
