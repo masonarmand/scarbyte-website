@@ -11,15 +11,19 @@ from PIL import Image
 from shutil import copyfile
 
 def create_thumbnail(img_path, thumb_path):
-    print(f"Creating thumbnail for {img_path}...")
-    img = Image.open(img_path)
-    if img.mode == "RGBA":
-        img = img.convert("RGB")
-    w_percent = (300 / float(img.size[0]))
-    h_size = int((float(img.size[1]) * float(w_percent)))
-    img = img.resize((300, h_size), Image.LANCZOS)
-    img.save(thumb_path, "JPEG")
-    return 300, h_size
+    if not os.path.exists(thumb_path):
+        print(f"Creating thumbnail for {img_path}...")
+        img = Image.open(img_path)
+        if img.mode == "RGBA":
+            img = img.convert("RGB")
+        w_percent = (300 / float(img.size[0]))
+        h_size = int((float(img.size[1]) * float(w_percent)))
+        img = img.resize((300, h_size), Image.LANCZOS)
+        img.save(thumb_path, "JPEG")
+        return 300, h_size
+    else:
+        img = Image.open(thumb_path)
+        return img.width, img.height
 
 def is_image(filename):
     ext = (".jpg", ".jpeg", ".png", ".gif", ".tiff", ".webp", ".bmp")
@@ -36,6 +40,7 @@ def genhtml(path, gallery, template, output):
         full_path = os.path.join(path, f)
         if os.path.isfile(full_path) and is_image(f):
             images.append(f)
+    images.sort(reverse=True)
 
     for img in images:
         img_path = os.path.join("..", path, img)
