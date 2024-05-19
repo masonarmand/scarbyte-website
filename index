@@ -4,6 +4,7 @@ description: Personal website/blog for showcasing my various hobbies including p
 tags: computer science, programming, music, blog, game development, photography
 date:
 -----
+<img src="/img/masonarmand2.png" alt="picture of mason armand making music" id="banner">
 # {title}
 Personal website/blog for showcasing my various hobbies including programming, game development, photography, and
 music.
@@ -17,8 +18,8 @@ masonarmand@proton.me
 <li><a href="/watercolor.html">watercolor paintings</a></li>
 </ul>
 
-Check out my music on <a href="https://www.youtube.com/channel/UCXdCQ67ecRBFxoQboTKg7cg" target="_blank">YouTube</a>. <br>
-Visit my <a href="https://github.com/masonarmand" target="_blank">GitHub</a>. <br><br>
+Check out my music on <a href="https://www.youtube.com/channel/UCXdCQ67ecRBFxoQboTKg7cg" target="_blank">YouTube</a>, <a href="https://masonarmand.bandcamp.com/" target="_blank">bandcamp</a>, and <a href="https://open.spotify.com/artist/2s3qZIvhqeXoO1hYjWhtwx" target="_blank">Spotify</a>. <br>
+View my programming projects on <a href="https://github.com/masonarmand" target="_blank">GitHub</a>. <br><br>
 Website <a href="https://gitlab.com/warningnonpotablewater/breadog" target="_blank">colorscheme</a> created by ⚠️🚱. <br>
 
 

@@ -27,6 +27,11 @@ video, img {
   margin: 0 auto;
 }
 
+#banner {
+  max-width: 460px !important;
+  margin: 0 !important;
+}
+
 p, ul li:before {
   margin-left: 30px;
 }
