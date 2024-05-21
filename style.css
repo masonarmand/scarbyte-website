@@ -28,7 +28,7 @@ video, img {
 }
 
 #banner {
-  max-width: 460px !important;
+  max-width: min(460px, 100%) !important;
   margin: 0 !important;
 }
 
