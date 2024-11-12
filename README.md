@@ -1,3 +1,5 @@
+NOTE: This website no longer exists, I no longer use the scarbyte.com domain. Instead my website is now located at https://masonarmand.com  
+
 # scarbyte-website
 The source code for https://scarbyte.com  
 This website is built using [txt2web](https://github.com/masonarmand/txt2web), a super simple static site generator I made.  
